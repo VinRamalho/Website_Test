@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: rgba(0, 0, 0, 1);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header.cabecalho{
+    background: #c05c5c;
+   
+}   
+
+header.cabecalho h1{
+    font-size: 15pt;
+    color: white;
+    padding-top: 5px;
+    height: max-content;
+    margin: 0;  
+    /* background: yellow; */
+}
+
+.container{
+    /* margin: 0px 100px; */
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+/*FORMATAÇÃO DO MENU*/
+
+nav#menu{
+    display: block;
+
+}
+
+nav#menu ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    width: 250px;
+    /* background: blue; */
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+
+}
+
+nav#menu li {
+    display: inline-block;
+    /* margin: 5px; */
+    display: flex;
+    cursor: pointer;
+}
+
+/*estilo das fotos*/
+
+.photo{
+    background: #e9d1d1;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 20px 120px;
+    height: max-content;
+    border: 0;
+    margin: 0px;
+
+
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0px
+}
+
+.profile{
+    background: #e9d1d1;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 120px 99px 65px 99px;
+    height: max-content;
+    border: 0px;
+    margin: 0px;
+
+}
+
+img#ramalho{
+    border-radius: 50%;
+}
+
+figcaption.leg_profile p{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.leg_profile{
+    margin-top: 80px;
+}
+
+
+.formulario{
+    height: max-content;
+    display: flex;
+    width: 600px;
+    flex-flow: column wrap;
+    margin: 15px 0px 0px 0px;
+}
+
+.formulario h4{
+    font-weight: 200;
+    font-size: 16px;
+    height: max-content;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 80px 0px 10px 0px;
+}
+
+.formulario h3{
+    font-weight: 200;
+    font-size: 16px;
+    height: max-content;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+input{
+    padding: 10px 20px;
+    margin: 0px;
+    border-radius: 4px;
+    border: 3px solid #e4e4e4;
+    text-align: left;
+    /* outline-color: yellowgreen; */
+}
+
+input#botton{
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 4px;
+    background-color: #80a76e;
+    border-color: #80a76e;
+    margin: 60px 0px 0px 0px;
+    cursor: pointer;
+}
+
+/*.meio{
+     display: flex;
+    justify-content: flex-start; */
+
+
+
+/*PARTE DO RODAPE*/
+
+
+.rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+    background-color: #d77f7e;
+    border-radius: 4px;
+    height: max-content;
+    border: 0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.txt_end {
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.txt_end :hover{
+    color: rgba(0, 0, 0, .5);
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+
+
+
+
+
